@@ -1,0 +1,15 @@
+<sut>
+		<artifactDownloader>
+		<class>com.greenroad.auto.infra.artifact.ArtifactDownloader</class>
+		<enabled>false</enabled>
+		<artifactRepository>http://svn/nexus/content/repositories/snapshots/
+		</artifactRepository>
+		<groupId>com.greenroad.asimov</groupId>
+		<artifactId>greenroad-asimov</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<extension>apk</extension>
+		<classifier>automation</classifier>
+		<destinationFolder>.</destinationFolder>
+		<renameFileTo>greenroad.apk</renameFileTo>
+	</artifactDownloader>
+</sut>
